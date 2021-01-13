@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+.card-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.textInput {
+    text-align: center;
+    background-color: white;
+    border: solid 2px rgb(134, 134, 134);
+    border-radius: 9px;
+    margin: 30px 20px 30px 20px;
+    padding: 6px;
+    color: #272c3c;
+}
+
+.card-image1 {
+    color: white;
+	margin: 0px 0 20px 0px;
+    padding: 20px;
+    width: 380px;
+	height: 600px;
+	border-radius: 10px;
+    background-color: rgba(46, 53, 69, 0.85);
+}
+
+.card-image1 p {
+    font-weight: 600;
+}
+
+.card-image2 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 960px;
+    height: 600px;
+    margin: 20px 0 20px 20px;
+	border-radius: 10px;
+    background-color: rgba(46, 53, 69, 0.85);
+    color: white;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* URL */
+.url-wrapper {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.url-wrapper:hover {
+    background-color: #6571a1;
+    box-shadow: 0 0 10px #6571a1, 0 0 40px #6571a1, 0 0 80px #6571a1;
+    transition: 0.3s;
+}
+.url-wrapper img {
+    margin: 0 auto ;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.url-wrapper p {
+    display: flex;
+    justify-content: center;
+}
+
+/* UPLOAD */
+.upload-wrapper {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-wrapper:hover {
+    background-color: #6571a1;
+    box-shadow: 0 0 10px #6571a1, 0 0 40px #6571a1, 0 0 80px #6571a1;
+    transition: 0.3s;
+}
+
+.upload-wrapper img {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.upload-wrapper p {
+    display: flex;
+    justify-content: center;
+}
+
+.detect-btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border: solid 2px rgb(134, 134, 134);
+    border-radius: 9px;
+    margin: 15px 15px 60px 15px;
+    padding: 6px;
+    color: #272c3c;
+}
+
+.rank {
+    color: white;
+    font-weight: 700;
+}
+
+#button-detect {
+	border: none;
+	background-color: #7289DA;
+	color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button-detect:hover {
+	background-color: #5264a7;
+	transition: 0.4s;
+}
+
+#button-clear {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#button-clear:hover {
+    background-color: rgb(209, 208, 208);
+    border: none;
+    transition: 0.3s;
+}

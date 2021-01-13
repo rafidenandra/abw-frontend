@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.wrapper-signin {
+	margin-top: 5%;
+}
+
+.title-signin {
+	font-weight: 600;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.form-label {
+	font-weight: 600;
+	color: white;
+}
+
+.text-signin {
+	font-weight: 100;
+	color: white;
+}
+
+.link-signin {
+	font-weight: 600;
+	color: #7289DA;
+}
+
+.link-signin:hover{
+	color: #5264a7;
+	text-decoration: none;
+}
+
+.card-signin {
+	width: 380px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	float: none;
+	border-radius: 10px;
+	background-color: rgba(46, 53, 69, 0.85);
+}
+
+.button-signin{
+	width: 290px; 
+	border: none;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	display: block !important;
+	background-color: #7289DA;
+	color: white;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #5264a7;
+	transition: 0.4s;
+}
+
+input {
+	width: 300px;
+	background-color: #394057;
+	color: white;
+}

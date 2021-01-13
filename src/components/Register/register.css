@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.form-label {
+	font-weight: 600;
+	color: white;
+}
+
+.title-regist {
+   margin-top: 20px;
+   margin-bottom: 30px;
+	font-weight: 600;
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+
+.link {
+	font-weight: 600;
+	color: #7289DA;
+}
+
+.link:hover{
+	color: #5264a7;
+	text-decoration: none;
+}
+
+.card-regist {
+	width: 800px;
+   height: 580px;
+   margin-top: 10px;
+   margin: 0 auto;
+	float: none;
+	border-radius: 10px;
+	background-color: rgba(46, 53, 69, 0.85);
+}
+
+.upper {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.lower {
+   display: flex;
+	align-items:center;
+   justify-content: center;
+   flex-direction: column; 
+}
+
+.button-regist{
+	width: 290px; 
+	border: none;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px; 
+	display: block !important;
+	background-color: #7289DA;
+	color: white;
+   border-radius: 5px;
+}
+
+input {
+	width: 300px;
+	background-color: #394057;
+	color: white;
+} 
+
+.footer-regist {
+   display: flex;
+   justify-content: center; 
+}
+
+.text {
+   font-weight: 100;
+   color: white;
+   text-align: center;
+}
+
+.wrapper-regist{
+	margin-top: 25px;
+}
+

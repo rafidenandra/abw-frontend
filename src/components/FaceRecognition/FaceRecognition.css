@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #f21414 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#facerecognition {
+  font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+.form {
+	width: 700px;
+	background-color:#C0C0C080;
+}
+
+button {
+	background-color: #FE4365;
+}
