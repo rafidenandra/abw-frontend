@@ -4,7 +4,6 @@ import React, {Component} from 'react';
 import Navigation from './components/Navigation/Navigation';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
-import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 
 const url = "http://localhost:3000";
@@ -158,8 +157,9 @@ class App extends Component {
               onInputClear={this.onInputClear}
               first_name={this.state.user.first_name}
               entries={this.state.user.entries}
+              box={box}
+              imageUrl={input}
             />
-            {input && <FaceRecognition box={box} imageUrl={input} />}
           </div>
         : (
             route === 'signin' || route === 'signout'

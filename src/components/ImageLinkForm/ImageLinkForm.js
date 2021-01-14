@@ -22,13 +22,13 @@ class ImageLinkForm extends React.Component {
 	}
 
 	render() {
-		const { onInputChange, onButtonSubmit, input, onInputClear, first_name, entries } = this.props;
+		const { onInputChange, onButtonSubmit, input, onInputClear, first_name, entries, imageUrl, box } = this.props;
 		return (
 
 			<div className="card-wrap">
 				<div class="card card-image1">
 					<div>
-						<p>Editor</p>
+						<p>COPY URL / UPLOAD FILE</p>
 						<div>
 							<div>
 								<div className="button-wrapper">
@@ -78,7 +78,7 @@ class ImageLinkForm extends React.Component {
 
 						<div className="rank">
 							<div className="info" style={{textAlign: "center", fontSize:"20px"}}>
-								{`Hey ${first_name}, your current rank :  `}
+								{`Hey ${first_name}, your current rank is :  `}
 							</div>
 							<div className="entries" style={{textAlign: "center", fontSize:"40px"}}>
 								{entries}
@@ -87,6 +87,27 @@ class ImageLinkForm extends React.Component {
 
 					</div>
 				</div>
+
+				<div className="card card-image2">
+					<p>RESULT</p>
+					<div className="wrapper">
+						<img className="wrapper-img" id="inputimage" alt='' src={imageUrl} width="500px" height="auto"/>
+						{
+							box.length === 0 
+							? <p>No human faces found!</p>
+							: box.map( (s, i) => {
+								return (<div key={"div_face_" + i} className="bounding-box"
+										style={{top: s.topRow, 
+														right: s.rightCol, 
+														bottom: s.bottomRow,
+														left: s.leftCol
+										}}
+								></div>);
+							})
+						}
+					</div>
+				</div>
+
 			</div>
 
 			
