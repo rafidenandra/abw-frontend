@@ -6,7 +6,7 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 
-const url = "http://localhost:3000";
+const url = "https://serene-spire-22376.herokuapp.com/";
 
 const initialState = {
   input: '',
